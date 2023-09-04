@@ -1,0 +1,14 @@
+.bg_light {
+    position: relative;
+ 
+    overflow: hidden;
+    transition:  0.5s; 
+    transform: translateY(0); 
+    opacity: 0;
+  }
+  
+  .col_md_4:hover .bg_light {
+    transform: translateY(-100%); 
+    opacity: 0.7;
+  }
+  
