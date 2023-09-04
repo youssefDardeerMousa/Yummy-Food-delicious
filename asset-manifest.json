@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Yummy-Food-delicious/static/css/main.ca4e95c1.css",
+    "main.js": "/Yummy-Food-delicious/static/js/main.9e7daf4c.js",
+    "static/media/fa-solid-900.ttf": "/Yummy-Food-delicious/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/Yummy-Food-delicious/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/Yummy-Food-delicious/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/Yummy-Food-delicious/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/Yummy-Food-delicious/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/istockphoto-1334875361-612x612.jpg": "/Yummy-Food-delicious/static/media/istockphoto-1334875361-612x612.23a08e58e3c88fb204a6.jpg",
+    "static/media/gettyimages-1414385989-1024x1024.jpg": "/Yummy-Food-delicious/static/media/gettyimages-1414385989-1024x1024.f053b8da9da7f148d557.jpg",
+    "static/media/fa-regular-400.woff2": "/Yummy-Food-delicious/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Yummy-Food-delicious/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Yummy-Food-delicious/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/Yummy-Food-delicious/index.html",
+    "main.ca4e95c1.css.map": "/Yummy-Food-delicious/static/css/main.ca4e95c1.css.map",
+    "main.9e7daf4c.js.map": "/Yummy-Food-delicious/static/js/main.9e7daf4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca4e95c1.css",
+    "static/js/main.9e7daf4c.js"
+  ]
+}
