@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import style from "./Contact.module.scss"
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 export default function Contact() {
   let nav=useNavigate()
@@ -70,7 +71,10 @@ export default function Contact() {
       </form>
     </div>
   
-      
+    <Helmet>
+            <title>Contact</title>
+            
+          </Helmet>
     </>
   )
 }

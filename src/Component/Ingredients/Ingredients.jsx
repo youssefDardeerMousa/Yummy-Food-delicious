@@ -5,6 +5,7 @@ import style from "./Inte.module.scss";
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { IngredientsApi } from '../../Redux/Ingredients';
+import { Helmet } from 'react-helmet';
 
 export default function Categories() {
   let [loading, setLoading] = useState(true);
@@ -48,6 +49,11 @@ export default function Categories() {
               <i className="fas fa-spin fa-spinner fs-1 text-light"></i> 
                </div> }
         
+
+               <Helmet>
+            <title>Ingredients</title>
+            
+          </Helmet>
       </>
   );
 }

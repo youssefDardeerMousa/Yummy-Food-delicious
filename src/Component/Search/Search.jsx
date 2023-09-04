@@ -4,6 +4,8 @@ import { useDispatch } from 'react-redux';
 import { SearchbyNameapi } from '../../Redux/SearchName';
 import { Link } from 'react-router-dom';
 import { SearchbyLetterapi } from '../../Redux/SearchLetter';
+import { Helmet } from 'react-helmet';
+import img from "../Home/gettyimages-1414385989-1024x1024.jpg"
 
 export default function Search() {
   let dispatch = useDispatch();
@@ -13,6 +15,7 @@ export default function Search() {
 
  
   return (
+    <>
     <div className={``}>
       <div className="container">
         <div className="d-flex justify-content-center w-75 mx-auto my-3">
@@ -64,5 +67,13 @@ export default function Search() {
               </div>}
           </div>
     </div>
+
+    <Helmet>
+            <title>Search</title>
+            <link rel="icon" type="image/png" href={img} />
+          </Helmet>
+    </>
+    
+    
   );
 }

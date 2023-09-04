@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 import { getIngredientsApi } from '../../Redux/GetIngrediencw';
 import style from "./style.module.scss"
+import { Helmet } from 'react-helmet';
 export default function GetIngredie() {
     let { GetIngredient } = useParams();
     console.log(GetIngredient);
@@ -51,7 +52,10 @@ export default function GetIngredie() {
               
              <i className="fas fa-spin fa-spinner fs-1 text-light"></i> 
               </div>}
-    
+              <Helmet>
+            <title>Ingredients</title>
+            
+          </Helmet>
     </>
   )
 }

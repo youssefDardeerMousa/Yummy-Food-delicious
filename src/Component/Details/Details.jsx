@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 
 import { StrDetailsapi } from '../../Redux/FoodDetails';
+import { Helmet } from 'react-helmet';
 
 export default function DataStrCategory() {
   let { id } = useParams();
@@ -80,7 +81,10 @@ export default function DataStrCategory() {
               
               <i className="fas fa-spin fa-spinner fs-1 text-light"></i> 
                </div>}
-     
+               <Helmet>
+            <title>Details</title>
+            
+          </Helmet>
     </>
   );
 }

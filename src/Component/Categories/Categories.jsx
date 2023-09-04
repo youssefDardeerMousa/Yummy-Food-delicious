@@ -5,6 +5,7 @@ import style from "./cat.module.scss";
 import { useDispatch, useSelector } from 'react-redux';
 import { categoryapi } from '../../Redux/Category';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 export default function Categories() {
   let [loading, setLoading] = useState(true);
@@ -25,6 +26,7 @@ export default function Categories() {
 //col_md_4
   return (
       <>
+
           <div className={`${style.bg}`}>
             {loading ? (
               <div className='text-center'>
@@ -55,6 +57,13 @@ export default function Categories() {
              <i className="fas fa-spin fa-spinner fs-1 text-light"></i> 
               </div>}
           </div>
+
+          <Helmet>
+            <title>Categories</title>
+            
+          </Helmet>
       </>
+
+      
   );
 }

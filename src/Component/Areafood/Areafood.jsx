@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 import style from "./Areafood.module.scss";
 import { AreaFoodapi } from '../../Redux/AreaFood';
+import { Helmet } from 'react-helmet';
 
 export default function DataStrCategory() {
   let { food } = useParams();
@@ -56,6 +57,11 @@ export default function DataStrCategory() {
              <i className="fas fa-spin fa-spinner fs-1 text-light"></i> 
               </div>}
           </div> }
+
+          <Helmet>
+            <title>Area Food</title>
+            
+          </Helmet>
     </>
   );
 }

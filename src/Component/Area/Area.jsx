@@ -5,6 +5,7 @@ import style from "./area.module.scss";
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { AreaApi } from '../../Redux/AreaData';
+import { Helmet } from 'react-helmet';
 
 export default function Categories() {
   let [loading, setLoading] = useState(true);
@@ -44,7 +45,10 @@ export default function Categories() {
               
               <i className="fas fa-spin fa-spinner fs-1 text-light"></i> 
                </div>}
-         
+               <Helmet>
+            <title>Area</title>
+            
+          </Helmet>
       </>
   );
 }

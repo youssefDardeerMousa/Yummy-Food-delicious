@@ -21,22 +21,24 @@ export default function Navbar() {
     
       <ul className="navbar-nav flex-column mx-auto mb-2 mb-lg-0">
         <li className="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link className="nav-link " aria-current="page" to="/Search" >Search</Link>
+          <Link className="nav-link fw-bold " aria-current="page" to="/Search" >Search</Link>
         </li>
         
         <li className="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link className="nav-link" to={"/Categories"}>Categories</Link>
+          <Link className="nav-link fw-bold" to={"/Categories"}>Categories</Link>
         </li>
         <li className="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link className="nav-link" to={"/Area"} >Area</Link>
+          <Link className="nav-link fw-bold" to={"/Area"} >Area</Link>
         </li>
         <li className="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link className="nav-link" to={"/Ingredients"}>Ingredients</Link>
+          <Link className="nav-link fw-bold" to={"/Ingredients"}>Ingredients</Link>
         </li>
         <li className="nav-item" data-bs-dismiss="offcanvas" aria-label="Close" >
-          <Link className="nav-link" to={"/Contact"}>Contact Us</Link>
+          <Link className="nav-link fw-bold" to={"/Contact"}>Contact Us</Link>
         </li>
-        
+        <li className="nav-item" data-bs-dismiss="offcanvas" aria-label="Close" >
+          <Link className="nav-link fw-bold" to={"/Home"}>Home</Link>
+        </li>
       </ul>
       
     

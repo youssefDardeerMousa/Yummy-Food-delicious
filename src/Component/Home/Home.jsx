@@ -1,11 +1,13 @@
 import React from 'react'
 import style from "./Home.module.scss"
 import img from "./gettyimages-1414385989-1024x1024.jpg"
+import { Helmet } from 'react-helmet'
+
 export default function Home() {
   
   return (
     <>
-  
+ 
     <div className={`${style.bg}`}>
         <div className="d-flex justify-content-center align-items-center vh-100 w-100">
             
@@ -24,7 +26,11 @@ We also offer a free JSON API for anyone wanting to use it, with additional feat
     {/* <h1 className='text-light text-center'>Home</h1> */}
 
     </div>
-    
+    <Helmet>
+               
+                <title>Home</title>
+                
+            </Helmet>
     </>
   )
 }

@@ -3,7 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 import { StrCategoryapi } from '../../Redux/StrCategory';
 import style from "./Style.module.scss";
-
+import { Helmet } from 'react-helmet';
+import img from "../Home/gettyimages-1414385989-1024x1024.jpg"
 export default function DataStrCategory() {
   let { FoodName } = useParams();
   let dispatch = useDispatch();
@@ -55,6 +56,10 @@ export default function DataStrCategory() {
              <i className="fas fa-spin fa-spinner fs-1 text-light"></i> 
               </div>}
           </div>
+          <Helmet>
+            <title>Categories Food</title>
+            <link rel="icon" type="image/png" href={img} />
+          </Helmet>
     </>
   );
 }
