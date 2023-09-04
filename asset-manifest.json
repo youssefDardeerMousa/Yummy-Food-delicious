@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Yummy_Food_delicious/static/css/main.ed3bfc38.css",
-    "main.js": "/Yummy_Food_delicious/static/js/main.31071e67.js",
+    "main.js": "/Yummy_Food_delicious/static/js/main.b5cc8cc6.js",
     "static/media/fa-solid-900.ttf": "/Yummy_Food_delicious/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/Yummy_Food_delicious/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/fa-solid-900.woff2": "/Yummy_Food_delicious/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
@@ -14,10 +14,10 @@
     "static/media/fa-v4compatibility.woff2": "/Yummy_Food_delicious/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/Yummy_Food_delicious/index.html",
     "main.ed3bfc38.css.map": "/Yummy_Food_delicious/static/css/main.ed3bfc38.css.map",
-    "main.31071e67.js.map": "/Yummy_Food_delicious/static/js/main.31071e67.js.map"
+    "main.b5cc8cc6.js.map": "/Yummy_Food_delicious/static/js/main.b5cc8cc6.js.map"
   },
   "entrypoints": [
     "static/css/main.ed3bfc38.css",
-    "static/js/main.31071e67.js"
+    "static/js/main.b5cc8cc6.js"
   ]
 }
