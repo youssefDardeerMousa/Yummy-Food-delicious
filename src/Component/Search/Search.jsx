@@ -22,14 +22,14 @@ export default function Search() {
           <input
             type="text"
             className={`form-control mx-3 ${style.bg} ${style.formcontrol}`}
-            placeholder="Name"
+            placeholder="S-Name"
             onChange={async(x)=>{setLoading(false);let response=await dispatch(SearchbyNameapi(x.target.value)) ;setvalue1(response.payload);console.log(response.payload
               );setLoading(true)}}
           />
           <input
             type="text"
             className={`form-control mx-3 ${style.bg} ${style.formcontrol}`}
-            placeholder="letter"
+            placeholder="S-letter"
             maxLength={1}
             onChange={async(x)=>{setLoading(false);let response=await dispatch(SearchbyLetterapi(x.target.value)) ;setvalue1(response.payload);console.log(response.payload
               );setLoading(true)}}
