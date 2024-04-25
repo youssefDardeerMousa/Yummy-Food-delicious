@@ -9,8 +9,6 @@ Yummy_Food_Delicious is a React project that showcases delicious foods and their
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -34,3 +32,18 @@ To run this project locally, follow these steps:
 npm start
 3. live
    https://youssefdardeermousa.github.io/Yummy_Food_delicious/
+
+## Technologies Used
+
+    React
+    HTML/CSS
+    JavaScript
+    Bootstap
+## Usage
+After completing the installation steps, you can start the development server:
+npm start
+
+
+
+
+   
